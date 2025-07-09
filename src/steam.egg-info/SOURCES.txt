@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-src/steam.egg-info/PKG-INFO
-src/steam.egg-info/SOURCES.txt
-src/steam.egg-info/dependency_links.txt
-src/steam.egg-info/requires.txt
-src/steam.egg-info/top_level.txt
-tests/test_data_sources.py
-tests/test_real_requests.py

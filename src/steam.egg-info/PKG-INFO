@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: steam
-Version: 0.1.0
-Summary: Add your description here
-Requires-Python: >=3.10
-Requires-Dist: beautifulsoup4>=4.13.4
-Requires-Dist: pytest>=8.4.1
-Requires-Dist: requests>=2.32.4
-Requires-Dist: pytest-mock>=3.14.1
