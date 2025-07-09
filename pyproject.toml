@@ -1,14 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "steamscraper"
 version = "0.1.0"
-description = "Add your description here"
+description = "Steam game data scraper and parser"
+readme = "README.md"
 requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
 dependencies = [
     "beautifulsoup4>=4.13.4",
-    "pytest>=8.4.1",
     "requests>=2.32.4",
+    "setuptools>=45",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.1",
     "pytest-mock>=3.14.1",
 ]
 
-[tool.setuptools.packages]
-find = { include = ["steamscraper"] }
+[tool.setuptools]
+packages = ["steamscraper", "steamscraper.steam_data", "steamscraper.steam_utils"]
+
+[tool.setuptools.package-dir]
+steamscraper = "steamscraper"

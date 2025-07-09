@@ -11,6 +11,12 @@ __pycache__/
 # Pytest cache
 .pytest_cache/
 
+# Python package build files
+*.egg-info/
+dist/
+build/
+*.egg
+
 # Dependency lock file
 uv.lock
 

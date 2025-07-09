@@ -1,0 +1,8 @@
+include README.md
+include pyproject.toml
+include pytest.ini
+recursive-include steamscraper *.py
+recursive-include tests *.py *.json *.html
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store 

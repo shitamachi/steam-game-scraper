@@ -2,6 +2,39 @@
 
 This project provides a Python tool to scrape comprehensive game information from Steam store pages.
 
+## Installation
+
+### From GitHub (推荐)
+
+```bash
+pip install git+https://github.com/your-username/steam.git
+```
+
+### For Development
+
+```bash
+git clone https://github.com/your-username/steam.git
+cd steam
+pip install -e ".[dev]"
+```
+
+### Using as a Library
+
+```python
+# Import and use the main classes
+from steamscraper import CombinedSteamDataSource
+
+# Create data source instance
+ds = CombinedSteamDataSource()
+
+# Get game data
+app_id = 1091500  # Cyberpunk 2077
+lang = 'english'
+data = ds.get_data(app_id, lang=lang)
+```
+
+**Note:** Replace `your-username` with your actual GitHub username.
+
 ## Project Structure
 
 ```
