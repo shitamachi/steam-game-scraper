@@ -5,10 +5,10 @@ import re
 import sys
 import logging
 
-from steam_data.base import SteamDataSource
-from steam_utils.utils import is_valid_steam_url
-from steam_utils.constants import SUPPORTED_LANGUAGES
-from steam_utils.web_utils import fetch_steam_store_html
+from .base import SteamDataSource
+from ..steam_utils.utils import is_valid_steam_url
+from ..steam_utils.constants import SUPPORTED_LANGUAGES
+from ..steam_utils.web_utils import fetch_steam_store_html
 
 logger = logging.getLogger(__name__)
 

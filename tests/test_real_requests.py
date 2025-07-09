@@ -3,12 +3,9 @@ import pytest
 import os
 import sys
 
-# Add the root directory to the Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from steam_data.store_html import StoreHtmlDataSource
-from steam_data.steam_app_details import SteamAppDetailsDataSource
-from steam_data.combined_data import CombinedSteamDataSource
+from steamscraper.steam_data.store_html import StoreHtmlDataSource
+from steamscraper.steam_data.steam_app_details import SteamAppDetailsDataSource
+from steamscraper.steam_data.combined_data import CombinedSteamDataSource
 
 # --- Real Request Tests ---
 # These tests make actual network requests to Steam's servers.

@@ -6,9 +6,9 @@ import os
 import json
 import logging
 
-from steam_data.base import SteamDataSource
-from steam_utils.utils import extract_app_id_from_url
-from steam_utils.web_utils import get_proxies_from_env # Import the new function
+from .base import SteamDataSource
+from ..steam_utils.utils import extract_app_id_from_url
+from ..steam_utils.web_utils import get_proxies_from_env # Import the new function
 
 logger = logging.getLogger(__name__)
 

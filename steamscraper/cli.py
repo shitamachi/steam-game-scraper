@@ -3,10 +3,10 @@ import json
 import sys
 import logging
 
-from steam_utils.constants import SUPPORTED_LANGUAGES
-from steam_data.store_html import StoreHtmlDataSource
-from steam_data.steam_app_details import SteamAppDetailsDataSource
-from steam_data.combined_data import CombinedSteamDataSource
+from .steam_utils.constants import SUPPORTED_LANGUAGES
+from .steam_data.store_html import StoreHtmlDataSource
+from .steam_data.steam_app_details import SteamAppAppDetailsDataSource
+from .steam_data.combined_data import CombinedSteamDataSource
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

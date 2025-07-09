@@ -1,5 +1,5 @@
 import json
-from steam_data.combined_data import CombinedSteamDataSource
+from .steam_data.combined_data import CombinedSteamDataSource
 
 lang = 'english'
 app_id = 1174180

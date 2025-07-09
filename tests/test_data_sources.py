@@ -6,13 +6,10 @@ from unittest.mock import patch
 import requests
 import json
 
-# Add the root directory to the Python path to allow importing 'src'
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from steam_utils.utils import is_valid_steam_url
-from steam_data.store_html import StoreHtmlDataSource
-from steam_data.steam_app_details import SteamAppDetailsDataSource
-from steam_data.combined_data import CombinedSteamDataSource
+from steamscraper.steam_utils.utils import is_valid_steam_url
+from steamscraper.steam_data.store_html import StoreHtmlDataSource
+from steamscraper.steam_data.steam_app_details import SteamAppDetailsDataSource
+from steamscraper.steam_data.combined_data import CombinedSteamDataSource
 
 @pytest.fixture(scope="module")
 def store_soup_fixture():

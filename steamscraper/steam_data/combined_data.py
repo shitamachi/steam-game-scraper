@@ -1,10 +1,10 @@
 import logging
 from typing import Any, Dict, Optional
 
-from steam_data.base import SteamDataSource
-from steam_data.store_html import StoreHtmlDataSource
-from steam_data.steam_app_details import SteamAppDetailsDataSource
-from steam_utils.utils import extract_app_id_from_url
+from .base import SteamDataSource
+from .store_html import StoreHtmlDataSource
+from .steam_app_details import SteamAppDetailsDataSource
+from ..steam_utils.utils import extract_app_id_from_url
 
 logger = logging.getLogger(__name__)
 
