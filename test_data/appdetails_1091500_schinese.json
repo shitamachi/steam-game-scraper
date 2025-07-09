@@ -1,0 +1,571 @@
+{
+  "type": "game",
+  "name": "赛博朋克 2077",
+  "steam_appid": 1091500,
+  "required_age": "18",
+  "is_free": false,
+  "controller_support": "full",
+  "dlc": [
+    2138330,
+    1495710,
+    2060310
+  ],
+  "detailed_description": "<h1>《赛博朋克 2077：终极版》</h1><p><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/CP77UE_Banner_schinese.jpg?t=1749198613\" /></div></p><br><h1>看看 CD PROJEKT RED 出品的其他游戏吧</h1><p><br><br></p><br><h1>关于游戏</h1><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/Copy_of_ABOUT_THE_GAME_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">《赛博朋克 2077》的舞台位于大都会夜之城，是一款在开放世界动作冒险角色扮演游戏。您扮演一位赛博朋克雇佣兵, 身陷绝地求生、不成功便成仁的险境。经过改进的同时更有全新免费额外内容加入。接受任务、累积声望、解锁升级，自定义您的人物和玩法。玩家经营的人际关系和做出的选择将会改变剧情的走向和身边的世界。这里是传奇诞生的地方。您的传奇又在哪里？</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/PNG_Description_banner_2_-_CP77_EOY_Campaign.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">版本更新 2.2，自定义你的赛博朋克！</p><p class=\"bb_paragraph\">免费版本更新 2.2 让你表现自我！通过新的时装义体、纹身和妆容打造角色。凭借雷菲尔德独家专属的晶彩车衣技术，更换豪车和超跑的喷漆，让爱车焕然一新。此外还可以沉浸在加强后的照片模式里，通过令人惊叹的细节捕捉每一个瞬间。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_CREATE_YOUR_OWN_CYBERPUNK_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">创造属于你的赛博朋克</p><p class=\"bb_paragraph\">装备赛博增强科技，化身城市法外之徒，在夜之城的街头谱写属于你的传奇。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_EXPLORE_THE_CITY_OF_FUTURE_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">探索未来都市</p><p class=\"bb_paragraph\">夜之城充斥着丰富的活动，看不完的风景，以及各式各样的人。去哪里，什么时候去，怎么去，全都取决于你自己。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_BUILD_YOUR_LEGEND_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">打造您的传奇</p><p class=\"bb_paragraph\">展开大胆的冒险，和令人难忘的角色起建立亲密关系。您作出的选择决定了他们最终的命运。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_EQUIPPED_WITH_IMPROVEMENTS_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">推出改良内容</p><p class=\"bb_paragraph\">体验《赛博朋克 2077》在游戏性、经济系统、城市、地图使用等方面的大量改良内容。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_INCLUDES_FREE_ADDITIONAL_CONTENT_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">领取专属道具</p><p class=\"bb_paragraph\">由CD PROJEKT RED游戏激发灵感而来的游戏内好物及数字奖励，此为“我的奖励”的一部分。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\">前往 </p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/06._Social-Media_ZHS.png?t=1749198613\" /></div></p>",
+  "about_the_game": "<p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/Copy_of_ABOUT_THE_GAME_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">《赛博朋克 2077》的舞台位于大都会夜之城，是一款在开放世界动作冒险角色扮演游戏。您扮演一位赛博朋克雇佣兵, 身陷绝地求生、不成功便成仁的险境。经过改进的同时更有全新免费额外内容加入。接受任务、累积声望、解锁升级，自定义您的人物和玩法。玩家经营的人际关系和做出的选择将会改变剧情的走向和身边的世界。这里是传奇诞生的地方。您的传奇又在哪里？</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/PNG_Description_banner_2_-_CP77_EOY_Campaign.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">版本更新 2.2，自定义你的赛博朋克！</p><p class=\"bb_paragraph\">免费版本更新 2.2 让你表现自我！通过新的时装义体、纹身和妆容打造角色。凭借雷菲尔德独家专属的晶彩车衣技术，更换豪车和超跑的喷漆，让爱车焕然一新。此外还可以沉浸在加强后的照片模式里，通过令人惊叹的细节捕捉每一个瞬间。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_CREATE_YOUR_OWN_CYBERPUNK_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">创造属于你的赛博朋克</p><p class=\"bb_paragraph\">装备赛博增强科技，化身城市法外之徒，在夜之城的街头谱写属于你的传奇。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_EXPLORE_THE_CITY_OF_FUTURE_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">探索未来都市</p><p class=\"bb_paragraph\">夜之城充斥着丰富的活动，看不完的风景，以及各式各样的人。去哪里，什么时候去，怎么去，全都取决于你自己。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_BUILD_YOUR_LEGEND_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">打造您的传奇</p><p class=\"bb_paragraph\">展开大胆的冒险，和令人难忘的角色起建立亲密关系。您作出的选择决定了他们最终的命运。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_EQUIPPED_WITH_IMPROVEMENTS_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">推出改良内容</p><p class=\"bb_paragraph\">体验《赛博朋克 2077》在游戏性、经济系统、城市、地图使用等方面的大量改良内容。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/NGU_INCLUDES_FREE_ADDITIONAL_CONTENT_ZHS.png?t=1749198613\" /></div></p><p class=\"bb_paragraph\">领取专属道具</p><p class=\"bb_paragraph\">由CD PROJEKT RED游戏激发灵感而来的游戏内好物及数字奖励，此为“我的奖励”的一部分。</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\">前往 </p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\"><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/extras/06._Social-Media_ZHS.png?t=1749198613\" /></div></p>",
+  "short_description": "《赛博朋克 2077》是一款开放世界动作冒险 RPG 游戏。故事发生在暗黑未来的夜之城，一座五光十色、危机四伏的超级大都会，权力更迭和无尽的身体改造是这里不变的主题。",
+  "supported_languages": "英语<strong>*</strong>, 法语<strong>*</strong>, 意大利语<strong>*</strong>, 德语<strong>*</strong>, 西班牙语 - 西班牙<strong>*</strong>, 阿拉伯语, 捷克语, 匈牙利语, 日语<strong>*</strong>, 韩语<strong>*</strong>, 波兰语<strong>*</strong>, 葡萄牙语 - 巴西<strong>*</strong>, 俄语<strong>*</strong>, 简体中文<strong>*</strong>, 西班牙语 - 拉丁美洲, 泰语, 繁体中文, 土耳其语, 乌克兰语<br><strong>*</strong>具有完全音频支持的语言",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/4e88035f3a75e69e0ef2005fc611a7fafcb227e1/header_schinese.jpg?t=1749198613",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/47c51dbc7cbec037001f1a23e1289d475be8fd5e/capsule_231x87_schinese.jpg?t=1749198613",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/47c51dbc7cbec037001f1a23e1289d475be8fd5e/capsule_184x69_schinese.jpg?t=1749198613",
+  "website": "https://www.cyberpunk.net",
+  "pc_requirements": {
+    "minimum": "<strong>最低配置:</strong><br><ul class=\"bb_ul\"><li>需要 64 位处理器和操作系统<br></li><li><strong>操作系统:</strong> 64-bit Windows 10<br></li><li><strong>处理器:</strong> Core i7-6700 or Ryzen 5 1600<br></li><li><strong>内存:</strong> 12 GB RAM<br></li><li><strong>显卡:</strong> GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380<br></li><li><strong>DirectX 版本:</strong> 12<br></li><li><strong>存储空间:</strong> 需要 70 GB 可用空间<br></li><li><strong>附注事项:</strong> SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately.</li></ul>",
+    "recommended": "<strong>推荐配置:</strong><br><ul class=\"bb_ul\"><li>需要 64 位处理器和操作系统<br></li><li><strong>操作系统:</strong> 64-bit Windows 10<br></li><li><strong>处理器:</strong> Core i7-12700 or Ryzen 7 7800X3D<br></li><li><strong>内存:</strong> 16 GB RAM<br></li><li><strong>显卡:</strong> GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770<br></li><li><strong>DirectX 版本:</strong> 12<br></li><li><strong>存储空间:</strong> 需要 70 GB 可用空间<br></li><li><strong>附注事项:</strong> SSD required.</li></ul>"
+  },
+  "mac_requirements": {
+    "minimum": "<strong>最低配置:</strong><br><ul class=\"bb_ul\"></ul>",
+    "recommended": "<strong>推荐配置:</strong><br><ul class=\"bb_ul\"></ul>"
+  },
+  "linux_requirements": {
+    "minimum": "<strong>最低配置:</strong><br><ul class=\"bb_ul\"></ul>",
+    "recommended": "<strong>推荐配置:</strong><br><ul class=\"bb_ul\"></ul>"
+  },
+  "legal_notice": "CDPROJEKT®，Cyber​​punk®，Cyber​​punk2077® 是 CD PROJEKT S.A.的注册商标。© CD PROJEKT S.A.保留所有权利。所有其他版权和商标均为其各自所有者的财产。",
+  "developers": [
+    "CD PROJEKT RED"
+  ],
+  "publishers": [
+    "CD PROJEKT RED"
+  ],
+  "price_overview": {
+    "currency": "SGD",
+    "initial": 6900,
+    "final": 2415,
+    "discount_percent": 65,
+    "initial_formatted": "S$69.00",
+    "final_formatted": "S$24.15"
+  },
+  "packages": [
+    367653
+  ],
+  "package_groups": [
+    {
+      "name": "default",
+      "title": "购买 赛博朋克 2077",
+      "description": "",
+      "selection_text": "选择一个购买选项",
+      "save_text": "",
+      "display_type": 0,
+      "is_recurring_subscription": "false",
+      "subs": [
+        {
+          "packageid": 367653,
+          "percent_savings_text": "-65% ",
+          "percent_savings": 0,
+          "option_text": "赛博朋克 2077 - <span class=\"discount_original_price\">S$69.00</span> S$24.15",
+          "option_description": "",
+          "can_get_free_license": "0",
+          "is_free_license": false,
+          "price_in_cents_with_discount": 2415
+        }
+      ]
+    }
+  ],
+  "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": false
+  },
+  "metacritic": {
+    "score": 86,
+    "url": "https://www.metacritic.com/game/pc/cyberpunk-2077?ftag=MCD-06-10aaa1f"
+  },
+  "categories": [
+    {
+      "id": 2,
+      "description": "单人"
+    },
+    {
+      "id": 22,
+      "description": "Steam 成就"
+    },
+    {
+      "id": 28,
+      "description": "完全支持控制器"
+    },
+    {
+      "id": 29,
+      "description": "Steam 集换式卡牌"
+    },
+    {
+      "id": 64,
+      "description": "可调整文字大小"
+    },
+    {
+      "id": 67,
+      "description": "视角舒适度"
+    },
+    {
+      "id": 66,
+      "description": "可选颜色"
+    },
+    {
+      "id": 68,
+      "description": "自定义音量控制"
+    },
+    {
+      "id": 78,
+      "description": "可调整难度"
+    },
+    {
+      "id": 74,
+      "description": "无需应对快速反应事件"
+    },
+    {
+      "id": 79,
+      "description": "随时保存"
+    },
+    {
+      "id": 69,
+      "description": "立体声"
+    },
+    {
+      "id": 65,
+      "description": "字幕选项"
+    },
+    {
+      "id": 70,
+      "description": "环绕声"
+    },
+    {
+      "id": 23,
+      "description": "Steam 云"
+    },
+    {
+      "id": 62,
+      "description": "家庭共享"
+    }
+  ],
+  "genres": [
+    {
+      "id": "3",
+      "description": "角色扮演"
+    }
+  ],
+  "screenshots": [
+    {
+      "id": 0,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 1,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 2,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 3,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 4,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 5,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 6,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 7,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 8,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 9,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 10,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_429db1d013a0366417d650d84f1eff02d1a18c2d.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_429db1d013a0366417d650d84f1eff02d1a18c2d.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 11,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 12,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 13,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_f79fda81e6f3a37e0978054102102d71840f8b57.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_f79fda81e6f3a37e0978054102102d71840f8b57.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 14,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_bb1a60b8e5061caef7208369f42c5c9d574c9ac4.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_bb1a60b8e5061caef7208369f42c5c9d574c9ac4.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 15,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_a0c4e4015b5cf766d19bf97eee8b086183510e04.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_a0c4e4015b5cf766d19bf97eee8b086183510e04.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 16,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 17,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ff3d920e254d18aa2a25d3765ac2ebe845efd208.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ff3d920e254d18aa2a25d3765ac2ebe845efd208.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 18,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0002f18563d313bdd1d82c725d411408ebf762b0.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0002f18563d313bdd1d82c725d411408ebf762b0.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 19,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_526123764d1c628caa1eb62c596f1b732f416c8c.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_526123764d1c628caa1eb62c596f1b732f416c8c.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 20,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.1920x1080.jpg?t=1749198613"
+    },
+    {
+      "id": 21,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.600x338.jpg?t=1749198613",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1749198613"
+    }
+  ],
+  "movies": [
+    {
+      "id": 257082814,
+      "name": "《赛博朋克 2077: 终极版》 梦想之城",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257082814/9698fdf58d051fb4d2967ed29612dcb0edc3dd2c/movie_600x337.jpg?t=1734434708",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/257082814/movie480_vp9.webm?t=1734434708",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/257082814/movie_max_vp9.webm?t=1734434708"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/257082814/movie480.mp4?t=1734434708",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/257082814/movie_max.mp4?t=1734434708"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256987142,
+      "name": "041_2_1_UpdateTrailer_ZH-S_NoRating_16x9_1080_Burned in Subs",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987142/movie.293x165.jpg?t=1701872721",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256987142/movie480_vp9.webm?t=1701872721",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256987142/movie_max_vp9.webm?t=1701872721"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256987142/movie480.mp4?t=1701872721",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256987142/movie_max.mp4?t=1701872721"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256984155,
+      "name": "010 BaseGame Accolades Trailer ZHS NoRating 16x9 1080",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256984155/movie.293x165.jpg?t=1700653141",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256984155/movie480_vp9.webm?t=1700653141",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256984155/movie_max_vp9.webm?t=1700653141"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256984155/movie480.mp4?t=1700653141",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256984155/movie_max.mp4?t=1700653141"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256977948,
+      "name": "009_EP1_2.0_trailer_ZH-S_NoRating_16x9_1080",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256977948/movie.293x165.jpg?t=1698157602",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256977948/movie480_vp9.webm?t=1698157602",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256977948/movie_max_vp9.webm?t=1698157602"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256977948/movie480.mp4?t=1698157602",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256977948/movie_max.mp4?t=1698157602"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256979907,
+      "name": "106_NWTP_trailer_ZH-S_NoRating_16x9_1080_",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256979907/movie.293x165.jpg?t=1699262639",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256979907/movie480_vp9.webm?t=1699262639",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256979907/movie_max_vp9.webm?t=1699262639"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256979907/movie480.mp4?t=1699262639",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256979907/movie_max.mp4?t=1699262639"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256975600,
+      "name": "075_BuildVideos_Ninja_ZH-S_NoRating_16x9_1080__Burned in Subs",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975600/movie.293x165.jpg?t=1697117065",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975600/movie480_vp9.webm?t=1697117065",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975600/movie_max_vp9.webm?t=1697117065"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975600/movie480.mp4?t=1697117065",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975600/movie_max.mp4?t=1697117065"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256975568,
+      "name": "057_BuildVideos_Netrunner_ZH-S_NoRating_16x9_1080__Burned in Subs in Subs in Subs",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975568/movie.293x165.jpg?t=1697117153",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975568/movie480_vp9.webm?t=1697117153",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975568/movie_max_vp9.webm?t=1697117153"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975568/movie480.mp4?t=1697117153",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975568/movie_max.mp4?t=1697117153"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256975526,
+      "name": "039_BuildVideos_Solo_ZH-S_NoRating_16x9_1080__Burned in Subs",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975526/movie.293x165.jpg?t=1697117241",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975526/movie480_vp9.webm?t=1697117241",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975526/movie_max_vp9.webm?t=1697117241"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256975526/movie480.mp4?t=1697117241",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256975526/movie_max.mp4?t=1697117241"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256904576,
+      "name": "080_CP_ER_trailer_ZH-S_NoRating_16x9_1080__",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256904576/movie.293x165.jpg?t=1662480328",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256904576/movie480_vp9.webm?t=1662480328",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256904576/movie_max_vp9.webm?t=1662480328"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256904576/movie480.mp4?t=1662480328",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256904576/movie_max.mp4?t=1662480328"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256876053,
+      "name": "171_CPNG_LOBI_EN UK_PEGI 18 _16x9_1080_PC__",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256876053/movie.293x165.jpg?t=1697117313",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256876053/movie480_vp9.webm?t=1697117313",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256876053/movie_max_vp9.webm?t=1697117313"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256876053/movie480.mp4?t=1697117313",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256876053/movie_max.mp4?t=1697117313"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256810254,
+      "name": "018_CP_Gameplay_Trailer_ZH-S_NoRating_16x9_1080__Burned in Subs",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256810254/movie.293x165.jpg?t=1611326528",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256810254/movie480_vp9.webm?t=1611326528",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256810254/movie_max_vp9.webm?t=1611326528"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256810254/movie480.mp4?t=1611326528",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256810254/movie_max.mp4?t=1611326528"
+      },
+      "highlight": true
+    },
+    {
+      "id": 256812969,
+      "name": "001_CP_Launch_Trailer_ZH-S_NoRating_16x9_4K__",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256812969/movie.293x165.jpg?t=1611328088",
+      "webm": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256812969/movie480_vp9.webm?t=1611328088",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256812969/movie_max_vp9.webm?t=1611328088"
+      },
+      "mp4": {
+        "480": "http://video.akamai.steamstatic.com/store_trailers/256812969/movie480.mp4?t=1611328088",
+        "max": "http://video.akamai.steamstatic.com/store_trailers/256812969/movie_max.mp4?t=1611328088"
+      },
+      "highlight": true
+    }
+  ],
+  "recommendations": {
+    "total": 765101
+  },
+  "achievements": {
+    "total": 57,
+    "highlighted": [
+      {
+        "name": "愚者",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/7975d6e5d790b88f030195e3b1a38e49a5de1c8d.jpg"
+      },
+      {
+        "name": "恋人",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/25bab7e2288262ad801664e62f241e2839edb457.jpg"
+      },
+      {
+        "name": "隐士",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/d1e79618b612be87bff4f5c70b1e825e37b05540.jpg"
+      },
+      {
+        "name": "命运之轮",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/61c7ccea74b66ef3f5d51c078d900d930346e74a.jpg"
+      },
+      {
+        "name": "女祭司",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/8f5eacf50eb2ad11fe9dbd1d3a98c306d54ff545.jpg"
+      },
+      {
+        "name": "世界",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/25c57ecea783efc3f9d04eec43401264ed5eb9b2.jpg"
+      },
+      {
+        "name": "恶魔",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/e63819b5dc0e127a2535e4fd76f726b1ba442afa.jpg"
+      },
+      {
+        "name": "星星",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/96506dab554565fd3dc78446a6df17040b353f16.jpg"
+      },
+      {
+        "name": "太阳",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/8bf8ad71b62614b329eab2bac069724d34d69b27.jpg"
+      },
+      {
+        "name": "节制",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1091500/c81713b7813e1675add335a1ce778588b70d09f9.jpg"
+      }
+    ]
+  },
+  "release_date": {
+    "coming_soon": false,
+    "date": "2020 年 12 月 9 日"
+  },
+  "support_info": {
+    "url": "http://en.cdprojektred.com/support",
+    "email": ""
+  },
+  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1091500?t=1749198613",
+  "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/644eb087007768417a847e52c38eeaf34b57fd12/page_bg_raw.jpg?t=1749198613",
+  "content_descriptors": {
+    "ids": [
+      1,
+      2,
+      5
+    ],
+    "notes": "Cyberpunk 2077 contains strong language, intense violence, blood and gore, as well as nudity and sexual material.\r\n"
+  },
+  "ratings": {
+    "esrb": {
+      "rating": "m",
+      "descriptors": "Blood and Gore\r\nIntense Violence\r\nNudity\r\nStrong Language\r\nStrong Sexual Content\r\nUse of Drugs\r\nUse of Alcohol",
+      "required_age": "17",
+      "use_age_gate": "true"
+    },
+    "pegi": {
+      "rating": "18",
+      "descriptors": "Violence\r\nSex\r\nBad Language",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "oflc": {
+      "rating": "r18",
+      "descriptors": "High impact themes\r\nSex\r\nViolence\r\nReferences to sexual violence",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "nzoflc": {
+      "rating": "r18",
+      "descriptors": "Violence\r\nOffensive language\r\nSex scenes",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "kgrb": {
+      "rating": "18",
+      "descriptors": "Sexuality\r\nViolence\r\nCrude Language\r\nUsage of Drugs",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "dejus": {
+      "rating": "18",
+      "descriptors": "Conteúdo sexual\r\nDrogas\r\nViolência Extrema",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "mda": {
+      "rating": "M18",
+      "descriptors": "Violence\r\nSexual scenes\r\nCoarse language",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "csrr": {
+      "rating": "R",
+      "descriptors": "Sex\r\nViolence\r\nTabacco\r\nAlcohol",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "crl": {
+      "rating": "18",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "usk": {
+      "rating": "18",
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "steam_germany": {
+      "rating_generated": "1",
+      "rating": "18",
+      "required_age": "18",
+      "banned": "0",
+      "use_age_gate": "0",
+      "descriptors": "Sexuelle Inhalte"
+    }
+  }
+}

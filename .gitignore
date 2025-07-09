@@ -1,0 +1,20 @@
+# IDE-specific files
+.idea/
+
+# Python virtual environment
+.venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Dependency lock file
+uv.lock
+
+# Temporary or test data files
+data_1174180_schinese.json
+test.json
+test.py
