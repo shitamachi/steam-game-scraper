@@ -14,7 +14,7 @@ from steamscraper.steam_data.combined_data import CombinedSteamDataSource
 @pytest.fixture(scope="module")
 def store_soup_fixture():
     """Provides a parsed BeautifulSoup object from a cached Steam store HTML file."""
-    html_path = os.path.join(os.path.dirname(__file__), '..', 'test_data', 'Cyberpunk_2077-1091500-schinese.html')
+    html_path = os.path.join(os.path.dirname(__file__), 'test_data', 'Cyberpunk_2077-1091500-schinese.html')
     with open(html_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
     return BeautifulSoup(html_content, 'html.parser')
@@ -22,14 +22,14 @@ def store_soup_fixture():
 @pytest.fixture(scope="module")
 def cyberpunk_html_content():
     """Provides the raw HTML content for Cyberpunk 2077."""
-    html_path = os.path.join(os.path.dirname(__file__), '..', 'test_data', 'Cyberpunk_2077-1091500-schinese.html')
+    html_path = os.path.join(os.path.dirname(__file__), 'test_data', 'Cyberpunk_2077-1091500-schinese.html')
     with open(html_path, 'r', encoding='utf-8') as f:
         return f.read()
 
 @pytest.fixture(scope="module")
-def elden_ring_api_json():
-    """Provides sample JSON content for Elden Ring from the Steam API."""
-    json_path = os.path.join(os.path.dirname(__file__), '..', 'test_data', 'appdetails_1091500_english.json')
+def cyberpunk_api_json():
+    """Provides sample JSON content for Cyberpunk 2077 from the Steam API."""
+    json_path = os.path.join(os.path.dirname(__file__), 'test_data', 'appdetails_1091500_english.json')
     with open(json_path, 'r', encoding='utf-8') as f:
         return f.read()
 
@@ -195,15 +195,15 @@ def test_steampowered_api_data_source_language_support():
 
 # New mocked tests for SteamAppDetailsDataSource
 @patch('requests.get')
-def test_steampowered_api_data_source_mocked_success(mock_get, elden_ring_api_json):
+def test_steampowered_api_data_source_mocked_success(mock_get, cyberpunk_api_json):
     """Tests SteamAppDetailsDataSource.get_data with a mocked successful HTTP response."""
     mock_response = mock_get.return_value
     mock_response.status_code = 200
-    app_id = "1091500" # Using Cyberpunk's ID for the Elden Ring JSON
+    app_id = "1091500"
     mock_response.json.return_value = {
         app_id: {
             "success": True,
-            "data": json.loads(elden_ring_api_json)
+            "data": json.loads(cyberpunk_api_json)
         }
     }
     mock_response.raise_for_status.return_value = None
@@ -266,9 +266,9 @@ def test_steampowered_api_data_source_mocked_api_unsuccessful(mock_get):
     requests.get.assert_called_once()
 
 # --- Tests for CombinedSteamDataSource ---
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Title', 'price': 'HTML Price', 'developer': {'name': 'HTML Dev'}})
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Name', 'price': 'API Price', 'publisher': {'name': 'API Pub'}})
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Title', 'price': 'HTML Price', 'developer': {'name': 'HTML Dev'}})
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Name', 'price': 'API Price', 'publisher': {'name': 'API Pub'}})
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_prioritizes_html(mock_extract, mock_api, mock_html):
     """Tests that combined data source prioritizes HTML data."""
 
@@ -281,9 +281,9 @@ def test_combined_data_source_prioritizes_html(mock_extract, mock_api, mock_html
     assert data['name'] == 'API Name' # API data should still be merged if key doesn't exist in HTML
     assert data['publisher']['name'] == 'API Pub'
 
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Name', 'developer': {'name': 'API Dev'}, 'price': 'API Price'})
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Name', 'developer': {'name': 'API Dev'}, 'price': 'API Price'})
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_falls_back_to_api(mock_extract, mock_api, mock_html):
     """Tests that combined data source falls back to API data if HTML data is not available."""
 
@@ -295,9 +295,9 @@ def test_combined_data_source_falls_back_to_api(mock_extract, mock_api, mock_htm
     assert data['price'] == 'API Price'
     assert 'title' not in data # Ensure HTML-specific fields are not present if HTML data is None
 
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value=None)
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value=None)
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_no_data(mock_extract, mock_api, mock_html):
     """Tests that combined data source returns None if no data is available from either source."""
 
@@ -306,9 +306,9 @@ def test_combined_data_source_no_data(mock_extract, mock_api, mock_html):
 
     assert data is None
 
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Game', 'release_date': '2023-01-01'})
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value=None)
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value={'name': 'API Game', 'release_date': '2023-01-01'})
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_html_fails_api_success(mock_extract, mock_api, mock_html):
     """Tests combined data source when HTML fails but API succeeds."""
 
@@ -319,9 +319,9 @@ def test_combined_data_source_html_fails_api_success(mock_extract, mock_api, moc
     assert data['name'] == 'API Game'
     assert data['release_date'] == '2023-01-01'
 
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Game', 'price': 'Free'})
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value=None)
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Game', 'price': 'Free'})
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data', return_value=None)
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_html_success_api_fails(mock_extract, mock_api, mock_html):
     """Tests combined data source when HTML succeeds but API fails."""
 
@@ -333,9 +333,9 @@ def test_combined_data_source_html_success_api_fails(mock_extract, mock_api, moc
     assert data['price'] == 'Free'
     assert 'name' not in data # API-specific field should not be present
 
-@patch('steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Title', 'price': 'HTML Price', 'developer': {'name': 'HTML Dev'}, 'tags': ['HTML Tag1', 'HTML Tag2']})
-@patch('steam_data.steam_app_details.SteamAppDetailsDataSource.get_data')
-@patch('steam_data.combined_data.extract_app_id_from_url', return_value='123')
+@patch('steamscraper.steam_data.store_html.StoreHtmlDataSource.get_data', return_value={'title': 'HTML Title', 'price': 'HTML Price', 'developer': {'name': 'HTML Dev'}, 'tags': ['HTML Tag1', 'HTML Tag2']})
+@patch('steamscraper.steam_data.steam_app_details.SteamAppDetailsDataSource.get_data')
+@patch('steamscraper.steam_data.combined_data.extract_app_id_from_url', return_value='123')
 def test_combined_data_source_merge_logic(mock_extract, mock_api, mock_html):
     """Tests the merging logic of CombinedSteamDataSource."""
     mock_api.return_value = {
