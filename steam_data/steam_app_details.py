@@ -51,3 +51,6 @@ class SteamAppDetailsDataSource(SteamDataSource):
         except json.JSONDecodeError as e:
             logger.error(f"Error decoding JSON response from Steam Storefront API: {e}")
             return None
+
+    def parse_static_content(self, content: str, **kwargs):
+        raise NotImplementedError("SteamAppDetailsDataSource does not support processing HTML content directly.")

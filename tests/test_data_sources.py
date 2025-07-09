@@ -114,8 +114,15 @@ def test_store_html_data_source_mocked_success(mock_get, cyberpunk_html_content)
     assert "赛博朋克" in data['tags']
     requests.get.assert_called_once_with(
         f"https://store.steampowered.com/app/{app_id}/",
-        cookies={'birthtime': '568022401', 'mature_content': '1', 'lastagecheckage': '1-January-1990'},
-        headers={'Accept-Language': 'schinese,en;q=0.9'},
+        headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+            'Referer': 'https://www.google.com/'
+        },
+        cookies={
+            'birthtime': '568022401',
+            'mature_content': '1',
+            'lastagecheckage': '1-January-1990'
+        },
         params={'l': 'schinese'},
         timeout=10
     )

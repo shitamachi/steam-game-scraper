@@ -18,3 +18,6 @@ class SteamDataSource(ABC):
             A dictionary containing the parsed data, or None if data could not be fetched/parsed.
         """
         pass
+
+    def parse_static_content(self, content: str, **kwargs):
+        raise NotImplementedError("This data source does not support parsing HTML content directly.")

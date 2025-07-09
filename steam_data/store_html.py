@@ -8,6 +8,7 @@ import logging
 from steam_data.base import SteamDataSource
 from steam_utils.utils import is_valid_steam_url
 from steam_utils.constants import SUPPORTED_LANGUAGES
+from steam_utils.web_utils import fetch_steam_store_html
 
 logger = logging.getLogger(__name__)
 
@@ -34,16 +35,8 @@ class StoreHtmlDataSource(SteamDataSource):
         
         safe_game_name = re.sub(r'[\\/*?"<>|]', "", game_name)
 
-        logger.info(f"Fetching from web: {url}")
-        try:
-            cookies = {'birthtime': '568022401', 'mature_content': '1', 'lastagecheckage': '1-January-1990'}
-            headers = {'Accept-Language': f'{lang},en;q=0.9'}
-            response = requests.get(str(url), cookies=cookies, headers=headers, params={'l': lang}, timeout=10)
-            response.raise_for_status()
-            html_content = response.text
-
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Error fetching URL: {e}")
+        html_content = fetch_steam_store_html(url, lang=lang)
+        if not html_content:
             return None
 
         try:
@@ -53,7 +46,19 @@ class StoreHtmlDataSource(SteamDataSource):
             logger.error(f"An unexpected error occurred during parsing: {e}")
             return None
 
-    def _parse_game_details(self, soup):
+    def parse_static_content(self, content: str, **kwargs):
+        """
+        Processes raw HTML content to extract game details.
+        """
+        try:
+            soup = BeautifulSoup(content, 'html.parser')
+            return self._parse_game_details(soup)
+        except Exception as e:
+            logger.error(f"Error parsing HTML content: {e}")
+            return None
+
+    @staticmethod
+    def _parse_game_details(soup: BeautifulSoup):
         """
         Parses the BeautifulSoup object to extract comprehensive game details.
         """
