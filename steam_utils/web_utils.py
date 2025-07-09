@@ -2,6 +2,7 @@ from typing import Optional
 
 import requests
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +18,22 @@ DEFAULT_HEADERS = {
     'Host': 'store.steampowered.com'
 }
 
-def fetch_steam_store_html(url: str, lang: str = 'english', headers=None, cookies=None) -> Optional[str]:
+def get_proxies_from_env() -> dict:
+    """
+    Reads proxy settings from environment variables HTTP_PROXY and HTTPS_PROXY.
+    Returns a dictionary suitable for the 'proxies' argument in requests.
+    """
+    proxies = {}
+    http_proxy = os.getenv('HTTP_PROXY')
+    https_proxy = os.getenv('HTTPS_PROXY')
+
+    if http_proxy:
+        proxies['http'] = http_proxy
+    if https_proxy:
+        proxies['https'] = https_proxy
+    return proxies
+
+def fetch_steam_store_html(url: str, lang: str = 'english', headers: Optional[dict] = None, cookies: Optional[dict] = None, proxies: Optional[dict] = None) -> Optional[str]:
     """
     Fetches the HTML content of a Steam store page with appropriate headers.
 
@@ -38,9 +54,18 @@ def fetch_steam_store_html(url: str, lang: str = 'english', headers=None, cookie
         headers = DEFAULT_HEADERS
     params = {'l': lang}
 
+    # Get proxies from environment variables
+    env_proxies = get_proxies_from_env()
+    # Merge with provided proxies, giving precedence to env_proxies
+    if env_proxies:
+        if proxies:
+            proxies.update(env_proxies)
+        else:
+            proxies = env_proxies
+
     logger.info(f"Fetching HTML from: {url}")
     try:
-        response = requests.get(url, headers=headers, cookies=cookies, params=params, timeout=10)
+        response = requests.get(url, headers=headers, cookies=cookies, params=params, timeout=10, proxies=proxies)
         response.raise_for_status()  # Raise an HTTPError for bad responses (4xx or 5xx)
         return response.text
     except requests.exceptions.RequestException as e:

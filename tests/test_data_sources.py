@@ -116,7 +116,8 @@ def test_store_html_data_source_mocked_success(mock_get, cyberpunk_html_content)
         f"https://store.steampowered.com/app/{app_id}/",
         headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
-            'Referer': 'https://www.google.com/'
+            'Referer': 'https://www.google.com/',
+            'Host': 'store.steampowered.com' # Added Host header as it's now part of DEFAULT_HEADERS
         },
         cookies={
             'birthtime': '568022401',
@@ -124,7 +125,8 @@ def test_store_html_data_source_mocked_success(mock_get, cyberpunk_html_content)
             'lastagecheckage': '1-January-1990'
         },
         params={'l': 'schinese'},
-        timeout=10
+        timeout=10,
+        proxies=None # Added proxies=None
     )
 
 @patch('requests.get')
@@ -218,7 +220,8 @@ def test_steampowered_api_data_source_mocked_success(mock_get, elden_ring_api_js
     requests.get.assert_called_once_with(
         "https://store.steampowered.com/api/appdetails",
         params={'appids': app_id, 'l': 'english'},
-        timeout=10
+        timeout=10,
+        proxies={} # Added proxies={}
     )
 
 @patch('requests.get')

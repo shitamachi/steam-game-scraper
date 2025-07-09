@@ -8,6 +8,7 @@ import logging
 
 from steam_data.base import SteamDataSource
 from steam_utils.utils import extract_app_id_from_url
+from steam_utils.web_utils import get_proxies_from_env # Import the new function
 
 logger = logging.getLogger(__name__)
 
@@ -32,9 +33,12 @@ class SteamAppDetailsDataSource(SteamDataSource):
         lang = kwargs.get('lang', 'english')
         params = {'appids': app_id, 'l': lang}
 
+        # Get proxies from environment variables
+        proxies = get_proxies_from_env()
+
         logger.info(f"Fetching from Steam Storefront API for App ID: {app_id}")
         try:
-            response = requests.get(self.BASE_URL, params=params, timeout=10)
+            response = requests.get(self.BASE_URL, params=params, timeout=10, proxies=proxies)
             response.raise_for_status()
             data = response.json()
 
